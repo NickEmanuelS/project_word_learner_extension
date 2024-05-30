@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "URL Sender",
+  "name": "WordLearner",
   "version": "1.0",
   "permissions": ["activeTab", "identity", "storage"],
   "background": {
@@ -9,14 +9,14 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "icon.png",
-      "48": "icon.png",
-      "128": "icon.png"
+      "16": "eua.png",
+      "48": "eua.png",
+      "128": "eua.png"
     }
   },
   "icons": {
-    "16": "icon.png",
-    "48": "icon.png",
-    "128": "icon.png"
+    "16": "eua.png",
+    "48": "eua.png",
+    "128": "eua.png"
   }
 }
