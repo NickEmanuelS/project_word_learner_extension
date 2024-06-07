@@ -36,11 +36,14 @@
   </head>
   <body>
     <h1>WordLearner</h1>
-    <label for="username">Usuário:</label>
-    <input type="text" id="username" name="username">
-    <label for="password">Senha:</label>
-    <input type="password" id="password" name="password">
-    <button id="sendUrl" class="button">Enviar URL</button>
+    <div id="loginContainer">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username">
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+      <button id="login" class="button">Login</button>
+    </div>
+    <button id="sendUrl" class="button" style="display: none;">Enviar URL</button>
     <script src="popup.js"></script>
   </body>
 </html>
